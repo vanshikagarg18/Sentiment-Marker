@@ -21,7 +21,7 @@ For other types of text, such as news articles or formal documents, VADER's accu
 ## Requirements
 - Python: 3.x
 - vaderSentiment: Sentiment Analysis tool; install using "!pip install vaderSentiment"
-tkinter: Standard Python library for creating GUIs; install using "!pip install tkinter"
+- tkinter: Standard Python library for creating GUIs; install using "!pip install tkinter"
 
 ## How to Use
 1) Setup: Ensure Python is installed on your system along with the vaderSentiment package.
