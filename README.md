@@ -16,7 +16,7 @@ For other types of text, such as news articles or formal documents, VADER's accu
 - Exit Function: A button to exit the application.
 
 ## GUI 
-<img width="185" alt="image" src="<img width="369" alt="image" src="https://github.com/user-attachments/assets/853f9375-6e17-4d8c-8d06-19289ace3a54" />
+<img width="369" alt="image" src="https://github.com/user-attachments/assets/853f9375-6e17-4d8c-8d06-19289ace3a54" />
 
 ## Requirements
 - Python: 3.x
