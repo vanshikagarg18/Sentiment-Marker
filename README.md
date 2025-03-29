@@ -1,11 +1,9 @@
 # Sentiment Marker
 
 ## Overwiew
-The Sentiment Detector is a simple graphical user interface (GUI) application built using Python's tkinter library and the vaderSentiment package.
-It allows users to input a sentence and analyze the sentiment by displaying the results in terms of positive, negative, neutral percentages, and an overall sentiment rating.
+The Sentiment Marker is a web-based sentiment analysis tool built using Gradio and VADER Sentiment Analysis. It allows users to input text and instantly analyze its sentiment.
 
-VADER is specifically tuned for sentiments expressed in social media and performs well with short, informal text and has an accuracy rate of around 90% for social media texts.
-For other types of text, such as news articles or formal documents, VADER's accuracy might be lower, around 70-80%
+VADER (Valence Aware Dictionary and sEntiment Reasoner) is specifically designed for social media and short-form text, achieving around 90% accuracy for such content. For news articles or formal documents, accuracy may range between 70-80%.
 
 ## Features
 - Input Text Area: A space where users can enter the sentence they wish to analyze.
@@ -16,12 +14,16 @@ For other types of text, such as news articles or formal documents, VADER's accu
 - Exit Function: A button to exit the application.
 
 ## GUI 
-<img width="369" alt="image" src="https://github.com/user-attachments/assets/853f9375-6e17-4d8c-8d06-19289ace3a54" />
+<img width="842" alt="image" src="https://github.com/user-attachments/assets/d7903cdf-992f-45cd-a89a-eeba9f07482a" />
+
+## Demo
+https://huggingface.co/spaces/vanshika-garg/sentiment-marker
+   
 
 ## Requirements
 - Python: 3.x
-- vaderSentiment: Sentiment Analysis tool; install using "!pip install vaderSentiment"
-- tkinter: Standard Python library for creating GUIs; install using "!pip install tkinter"
+- vaderSentiment (for sentiment analysis)
+- gradio (for the interface)
 
 ## How to Use
 1) Setup: Ensure Python is installed on your system along with the vaderSentiment package.
